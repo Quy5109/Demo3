@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face 
+{font-family: Fontdep; 
+ src: url("../font/Montserrat-Bold.ttf")}
+@font-face
+{font-family: Fontxau;
+src: url("../font/Montserrat-Medium.ttf")}
+@font-face
+{font-family: fontvua;
+src: url("../font/Montserrat-Light.ttf")}
+body
+{margin: 0;
+padding: 0;}
+
+ .tongthe
+{width: 100%;
+height: 4000px;
+background-color: white;
+box-sizing: border-box;}
+
+.header  
+{width: 100%;
+height: 100px}
+
+.logo
+{width: 10%;
+height: 100%;
+float: left;}
+
+.menu
+{width: 90%;
+height: 100%;
+float: right;
+box-sizing: border-box;
+text-transform: uppercase;}
+
+.menu ul
+{list-style: none;}
+
+.menu ul li
+{padding: 20px 100px;
+float: left;
+text-align: center;
+font-family: fontdep;
+position: relative;}
+
+
+.menu ul li:hover
+{border-bottom: solid #000000 thick;}
+
+.menu ul li a
+{text-decoration: none;
+color: #000000;}
+
+.menu ul li ul
+{float: inherit;
+width: 230px;
+height: 300px;
+background-color: white;
+position: absolute;
+text-align: center;
+top: 65px;
+left: 28px;
+visibility: hidden;
+box-sizing: border-box;}
+
+.menu ul li:hover ul
+{visibility: visible;}
+
+.menu ul li ul li 
+{padding: 25px 20px;
+left: -10px;}
+
+.menu ul li ul li:hover
+{border-bottom: solid #000000 thick}
+
+.body 
+{width: 100%;
+height: 1080px;
+background: url( "../images/rachit-tank-2cFZ_FB08UM-unsplash.jpg"); ;
+background-size: cover;}
+
+
+
+.content1
+{width: 40%;
+height: 700px;
+float: left;
+font-family: fontxau;
+box-sizing: border-box;
+padding: 200px 100px;}
+
+.content1 button
+{width: 150px;
+height: 40px;
+font-family: fontdep;
+background-color: black;
+color: white;
+border-radius: 20px;}
+
+.productbox
+{width: 100%;
+height: 555px;
+float: left;
+display: flex;
+justify-content: center;}
+.producthead button
+{width: 150px;
+height: 40px;
+font-family: fontdep;
+background-color: black;
+color: white;
+border-radius: 20px;}
+
+.producthead
+{width: 100%;
+height: 100px;
+float: left;
+text-align: center;
+padding: 100px 100px 160px 100px;
+box-sizing: border-box;
+font-family: fontdep;}
+
+.product
+{ width: 20%;
+height: 450px;
+background-color: #F0F0F0;
+float: left;
+margin: 75px 75px;
+align-content: center;
+padding: 1%;
+box-sizing: border-box;
+text-align: center;
+font-family: fontxau;}
+
+.product:hover
+{border: solid #000000 thick;}
+
+.footer
+{width: 100%;
+height: 1010px;
+background-color: w;
+float: left;
+box-sizing: border-box;}
+
+.footerhead
+{width: 100%;
+height: 100px;
+padding: 100px 0px ;
+float: left;
+text-align: center;
+font-family: fontdep;}
+
+.footcontent
+{width: 100%;
+height: 100%;
+background: url( "../images/Colo_Featured_Desk_c28ebc846d.jpg");
+background-size: cover;    
+float: left;
+box-sizing: border-box;}
+
+
+.footcontent1
+{width: 30%;
+height: 810px;;
+float: left;
+color: white;
+text-align: left;
+padding: 100px;
+font-family: fontvua;
+line-height:27px}
+
+.footcontent1 button
+{width: 400px;
+height: 70px;
+background-color: white;
+font-family: fontdep;
+font-size:20px;}
+
+.footcontent2
+{width: 70%;
+height: 810px;
+float: left;}
+
+.ending
+{width: 100%;
+height: 200px;
+background-color: #F0F0F0;
+float: left;}
+
+.midle
+{width: 100%;
+height: 900px;
+background-color: #f0f0f0;
+float: left;
+box-sizing: border-box;
+display: flex;
+justify-content: center;}
+
+.story_1
+{width: 30%;
+height: 800px;
+margin: 1%;
+float: left;
+background: url("../images/83167370_2508232519416832_8083177349274664960_n.jpg");
+background-size: cover;
+box-sizing: border-box;}
+
+.story_2
+{width: 30%;
+height: 800px;
+margin: 1%;
+float: left;
+text-align: center;
+box-sizing: border-box;
+font-family: fontvua;}
+
+.haicon1
+{width: 100%;
+height: 70%;
+float: left;
+box-sizing: border-box;}
+
+.haicon2
+{width: 100%;
+height: 30%;
+float: left;}
+
+.story_3
+{width: 30%;
+height: 800px;
+margin: 1%;
+float: left;
+background: url("../images/1610766160217951-IMG_6374.jpg");
+background-size: cover;
+box-sizing: border-box;}
+
+.chinhanh
+{background-color: white;
+float: left;
+margin: 700px 90px;
+text-align: center;
+padding: 25px 100px;
+font-family: fontdep;
+box-sizing: border-box;}
+
+.chinhanh a
+{text-decoration: none;
+color: black;}
+
+.kethuc
+{width: 100%;
+height: 300px;
+float: left;
+background-color: #000000;
+color: white;
+text-align: center;
+font-family: fontxau;
+padding: 10px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+box-sizing: border-box;}
+
+
+.kethuc1
+{width: 30%;
+height: 250px;
+margin: 1%;
+float: left;
+padding: 20px;}
+
+
+
+
